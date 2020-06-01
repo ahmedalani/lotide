@@ -9,9 +9,9 @@ const assertEqual = function (actual, expected) {
     console.log('✅');
     return;
   }
-  console.log(`❗️This ${actual}does not match ${expected}, there\'s an error`);
+  console.log(`❗️This ${actual}does not match ${expected}, there's an error`);
 };
 // tests
-assertEqual(head([], undefined));
+assertEqual(head([]), undefined);
 assertEqual(head([1, 2, 3]), 1);
 assertEqual(head(['hello', 2, 3]), 'hello');
