@@ -1,5 +1,6 @@
 /* eslint-disable func-names, no-console */
-const words = ['hello', 'world', 'lighthouse'];
+// takes 2 arrays as params, first one is original, second one is unwanted items
+// loop through and remove unwanted itemes from original and output a new array
 const without = function (source, itemsToRemove) {
   const output = [...source];
   for (let i = 0; i < source.length; i++) {
@@ -16,6 +17,8 @@ const without = function (source, itemsToRemove) {
 // tests
 console.log(without(['1', 2, 3], [1]));
 console.log(without(['1', '2', '3'], [1, 2, '3']));
+// more tests
+const words = ['hello', 'world', 'lighthouse'];
 console.log(without(words, ['lighthouse']));
 console.log(words);
 
