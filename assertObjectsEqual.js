@@ -1,6 +1,4 @@
-/* eslint-disable global-require */
-/* eslint-disable prefer-destructuring */
-/* eslint-disable func-names, no-console, eol-last, no-restricted-syntax, guard-for-in */
+/* eslint-disable func-names, no-console, eol-last, no-restricted-syntax, guard-for-in, prefer-destructuring, global-require */
 // takes two arrays an check if they equate
 const eqArrays = function (arr1, arr2) {
   if (arr1.length !== arr2.length) {
