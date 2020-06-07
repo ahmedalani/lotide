@@ -1,12 +1,6 @@
 /* eslint-disable func-names, no-console, eol-last, dot-notation, no-restricted-syntax */
-// takes 2 params and check if they match
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log('They are ✅ matching');
-    return;
-  }
-  console.log(`This ${actual}❗️does not match ${expected}`);
-};
+// const assertEqual = require('./assertEqual');
+
 // takes a string as parameter and return an obj with count of each letter
 const countLetters = function (str) {
   const result = {};
@@ -19,8 +13,9 @@ const countLetters = function (str) {
   }
   return result;
 };
+module.exports = countLetters;
 // Tests
-const test = countLetters('lighthouse in the house');
-assertEqual(test['h'], 4);
-assertEqual(test['e'], 3);
-assertEqual(test.e, 3);
+// const test = countLetters('lighthouse in the house');
+// assertEqual(test['h'], 4);
+// assertEqual(test['e'], 3);
+// assertEqual(test.e, 3);
