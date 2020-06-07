@@ -1,5 +1,5 @@
 /* eslint-disable func-names, no-console, eol-last, dot-notation, no-restricted-syntax */
-const assertEqual = require('./assertEqual');
+// const assertEqual = require('./assertEqual');
 
 // takes arry and opject as params, count array elements based on classification from the obj
 const countOnly = function (allItems, itemsToCount) {
@@ -17,20 +17,20 @@ const countOnly = function (allItems, itemsToCount) {
 };
 module.exports = countOnly;
 // tests
-const firstNames = [
-  'Karl',
-  'Salima',
-  'Agouhanna',
-  'Fang',
-  'Kavith',
-  'Jason',
-  'Salima',
-  'Fang',
-  'Joe'
-];
+// const firstNames = [
+//   'Karl',
+//   'Salima',
+//   'Agouhanna',
+//   'Fang',
+//   'Kavith',
+//   'Jason',
+//   'Salima',
+//   'Fang',
+//   'Joe'
+// ];
 
-const result1 = countOnly(firstNames, { Jason: true, Karima: true, Fang: true });
+// const result1 = countOnly(firstNames, { Jason: true, Karima: true, Fang: true });
 
-assertEqual(result1['Jason'], 1);
-assertEqual(result1['Karima'], undefined);
-assertEqual(result1['Fang'], 2);
+// assertEqual(result1['Jason'], 1);
+// assertEqual(result1['Karima'], undefined);
+// assertEqual(result1['Fang'], 2);

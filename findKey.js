@@ -1,6 +1,6 @@
 /* eslint-disable */
 // const assertEqual = require('./assertEqual');
-
+// takes an object and a callback function loop through obj and return key of fuond value from the cb
 const findKey = function (obj, cb) {
   for (key in obj) {
     if (cb(obj[key])) {

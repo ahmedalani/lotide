@@ -1,4 +1,5 @@
 /* eslint-disable func-names, no-console */
+// takes two arrays as parameters and return true if they match false otherwise
 const eqArrays = function (arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;

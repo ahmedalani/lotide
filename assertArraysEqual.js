@@ -1,7 +1,7 @@
 /* eslint-disable func-names, no-console, eol-last */
 const eqArrays = require('./eqArrays');
 
-// not sure why the fuck I'm doing this, seems redundant
+// takes two arrays and compare if they match
 const assertArraysEqual = function (arr1, arr2) {
   const result = eqArrays(arr1, arr2);
   if (result) {

@@ -1,4 +1,5 @@
 /* eslint-disable func-names, no-restricted-syntax */
+// takes an array and a callback, returns a new array
 const map = function (arr, cb) {
   const results = [];
   for (const item of arr) {

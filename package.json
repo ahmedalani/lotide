@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@s3leha/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "mini version of lodash js library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/ahmedalani/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ahmed Alani",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ahmedalani/lotide/issues"
