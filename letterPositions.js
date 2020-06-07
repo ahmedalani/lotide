@@ -1,6 +1,4 @@
 /* eslint-disable func-names, no-console, eol-last */
-// const eqArrays = require('./eqArrays');
-// const assertEqual = require('./assertEqual');
 
 // takes a sentence as parameter and return an and obj with each letter index (zero based)
 const letterPositions = function (sentence) {
@@ -18,7 +16,3 @@ const letterPositions = function (sentence) {
   return results;
 };
 module.exports = letterPositions;
-
-// Tests
-// const test = letterPositions('hello');
-// assertEqual(eqArrays(test.l, [2, 3]), true);
