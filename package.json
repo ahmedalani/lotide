@@ -1,6 +1,6 @@
 {
   "name": "@s3leha/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mini version of lodash js library",
   "main": "assertArraysEqual.js",
   "directories": {
